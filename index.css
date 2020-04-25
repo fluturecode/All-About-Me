@@ -1,0 +1,32 @@
+  
+main{
+    text-align: center;
+  }
+  
+  #profile-pic{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    transition: transform 0.5s; 
+  }
+  
+  #profile-pic:hover{
+    transform: scale(1.1);  
+  }
+  
+  /* #analog-gear-list{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(50px, 50px));
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+  } */
+  
+  #analog-gear-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #language-list img{
+    width: 100%
+  }
